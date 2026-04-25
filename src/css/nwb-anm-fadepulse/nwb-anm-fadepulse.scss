@@ -1,0 +1,13 @@
+@keyframes nwb-kf-fadepulse {
+  0% {
+    background-color: rgba(128, 128, 128, 0.4);
+  }
+  100% {
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+}
+
+.nwb-anm-fadepulse {
+  background-color: rgba(128, 128, 128, 0.4);
+  animation: nwb-kf-fadepulse 1.2s linear infinite alternate;
+}

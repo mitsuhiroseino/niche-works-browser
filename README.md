@@ -1,2 +1,3 @@
-# niche-works-browser
+# @niche-works/browser
+
 A niche library for browser.
