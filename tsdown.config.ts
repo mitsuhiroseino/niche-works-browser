@@ -1,8 +1,6 @@
 import createExternalOptionFunction from '@niche-works/dev/createExternalOptionFunction';
-import createSassClassNameFunction from '@niche-works/dev/createSassClassNameFunction';
 import distPackage from '@niche-works/rollup-plugin-dist-package';
 import { defineConfig } from 'tsdown';
-import classNames from './src/css/classNames';
 
 export default defineConfig({
   entry: [
@@ -19,13 +17,6 @@ export default defineConfig({
   minify: false,
   css: {
     inject: true,
-    preprocessorOptions: {
-      scss: {
-        functions: {
-          'cls($classNameKey)': createSassClassNameFunction(classNames),
-        },
-      },
-    },
   },
   inputOptions: {
     external: createExternalOptionFunction(),
