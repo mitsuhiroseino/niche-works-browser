@@ -1,2 +1,2 @@
-export * from './nwb-anm-fadepulse';
-export * from './nwb-anm-wave';
+export * from './nwb-animation-fadepulse';
+export * from './nwb-animation-wave';
