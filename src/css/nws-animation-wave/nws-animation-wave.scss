@@ -1,4 +1,4 @@
-@keyframes nwb-keyframes-wave {
+@keyframes nws-keyframes-wave {
   0% {
     transform: translateX(-100%);
   }
@@ -7,7 +7,7 @@
   }
 }
 
-.nwb-animation-wave {
+.nws-animation-wave {
   position: relative;
   background-color: rgba(128, 128, 128, 0.4);
   overflow: hidden;
@@ -25,6 +25,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation: nwb-keyframes-wave 1.2s linear infinite;
+    animation: nws-keyframes-wave 1.2s linear infinite;
   }
 }

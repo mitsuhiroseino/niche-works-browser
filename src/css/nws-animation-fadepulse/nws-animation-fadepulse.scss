@@ -1,4 +1,4 @@
-@keyframes nwb-keyframes-fadepulse {
+@keyframes nws-keyframes-fadepulse {
   0% {
     background-color: rgba(128, 128, 128, 0.4);
   }
@@ -7,7 +7,7 @@
   }
 }
 
-.nwb-animation-fadepulse {
+.nws-animation-fadepulse {
   background-color: rgba(128, 128, 128, 0.4);
-  animation: nwb-keyframes-fadepulse 1.2s linear infinite alternate;
+  animation: nws-keyframes-fadepulse 1.2s linear infinite alternate;
 }
